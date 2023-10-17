@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    background-image:url(../img/charly.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.padreFormulario{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.caja__trasera{
+    width: 100%;
+    margin: 30px 25px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(42, 93, 234, 0.635);
+    backdrop-filter: blur(10px);
+}
+    .caja__trasera div{
+        margin: 100px 40px;
+        transition: all 500ms;
+        color: white;
+    }
+    .caja__trasera div h2{
+                font-size: 1.5rem;
+            }
+    .caja__trasera div button{
+                margin-top: 40px;
+                width: 6.5rem;
+                height: 2.3rem;
+                border: solid 2px white;
+                background: transparent;
+                color: white;
+                transition: all 300ms;
+                font-size: 0.9rem;
+            }
+                .caja__trasera button:hover{
+                    background: white;
+                    color: rgb(42, 93, 234);
+                    font-size: 0.9rem;
+                }
+
+/*FORMULARIOS*/
+.contenedorForm form{
+    width: 100%;
+    padding: 80px 20px;
+    background: white;
+    position: absolute;
+    margin: 10px 20px;
+    border-radius: 30px;
+}
+    .contenedorForm {
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        max-width: 380px;
+        margin-top: -215px;
+        left:20px;
+    }
+    .contenedorForm form h2{
+        font-size: 1.5rem;
+        color:rgb(42, 93, 234) ;
+        text-align: center;
+        margin: 10px;
+    }
+    .contenedorForm form input{
+        width: 100%;
+        margin:2.5%;
+        padding: 4px;
+        font-size: 0.7rem;
+        border: none;
+        background-color: rgba(42, 96, 234, 0.135);
+        outline: none;
+    }
+    .contenedorForm form button{
+        width: 6.5rem;
+        height: 2.3rem;
+        margin: 2% 35%;
+        border: solid 2px rgb(42, 93, 234);
+        background: transparent;
+        color: rgb(42, 93, 234);
+        transition: all 300ms;
+        font-size: 0.9rem;
+        border-radius: 4px;
+    }
+        .contenedorForm form button:hover{
+            background-color: rgba(42, 93, 234);
+            color: white ;
+        }
+
+.inicioDeSesionForm{
+    opacity: 1;
+    display: block;
+    height: 420px;
+}
+.registrarseForm{
+    display: none;
+}
+
+
+
+
+
+
+
