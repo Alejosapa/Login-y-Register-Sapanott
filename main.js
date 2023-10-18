@@ -27,8 +27,6 @@ function registrarse(){
     caja__trasera_inicio.style.opacity = "1"; 
 }
 
-
-
 document.querySelector('DOMContentLoaded', function(){
     document.getElementsByClassName('inicioDeSesionForm').addEventListener('submit', function(e){
         e.preventDefault();
